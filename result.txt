@@ -1,0 +1,110 @@
+Building prefix dict from the default dictionary ...
+Loading model from cache C:\Users\Lenovo\AppData\Local\Temp\jieba.cache
+Loading model cost 0.602 seconds.
+Prefix dict has been built successfully.
+(15000, 321712)
+The Accuracy of Naive Bayes Classifier is: 0.7026262626262626
+              precision    recall  f1-score   support
+
+           1       0.89      0.85      0.87       966
+           2       0.83      0.83      0.83       987
+           3       0.66      0.52      0.58      1000
+           4       0.50      0.77      0.60      1025
+           5       0.80      0.54      0.65       972
+
+    accuracy                           0.70      4950
+   macro avg       0.74      0.70      0.71      4950
+weighted avg       0.73      0.70      0.70      4950
+
+The Accuracy of LVM is: 0.6876767676767677
+              precision    recall  f1-score   support
+
+           1       0.90      0.82      0.86       966
+           2       0.82      0.83      0.82       987
+           3       0.65      0.51      0.57      1000
+           4       0.49      0.69      0.57      1025
+           5       0.69      0.59      0.64       972
+
+    accuracy                           0.69      4950
+   macro avg       0.71      0.69      0.69      4950
+weighted avg       0.71      0.69      0.69      4950
+
+The Accuracy of Decision Tree Classifier is: 0.5046464646464647
+              precision    recall  f1-score   support
+
+           1       0.60      0.66      0.63       966
+           2       0.68      0.60      0.64       987
+           3       0.41      0.39      0.40      1000
+           4       0.39      0.39      0.39      1025
+           5       0.46      0.49      0.47       972
+
+    accuracy                           0.50      4950
+   macro avg       0.51      0.51      0.51      4950
+weighted avg       0.51      0.50      0.50      4950
+
+The Accuracy of Random Forest Classifier is: 0.6709090909090909
+              precision    recall  f1-score   support
+
+           1       0.82      0.84      0.83       966
+           2       0.83      0.75      0.79       987
+           3       0.60      0.53      0.56      1000
+           4       0.50      0.69      0.58      1025
+           5       0.69      0.56      0.61       972
+
+    accuracy                           0.67      4950
+   macro avg       0.69      0.67      0.67      4950
+weighted avg       0.69      0.67      0.67      4950
+
+The Accuracy of LogisticRegression Classifier is: 0.6785858585858586
+              precision    recall  f1-score   support
+
+           1       0.88      0.80      0.84       966
+           2       0.79      0.82      0.81       987
+           3       0.65      0.47      0.54      1000
+           4       0.48      0.78      0.59      1025
+           5       0.75      0.53      0.62       972
+
+    accuracy                           0.68      4950
+   macro avg       0.71      0.68      0.68      4950
+weighted avg       0.71      0.68      0.68      4950
+
+The Accuracy of KNeighbors Classifier is: 0.5361616161616162
+              precision    recall  f1-score   support
+
+           1       0.68      0.68      0.68       966
+           2       0.68      0.62      0.65       987
+           3       0.44      0.42      0.43      1000
+           4       0.40      0.55      0.47      1025
+           5       0.54      0.40      0.46       972
+
+    accuracy                           0.54      4950
+   macro avg       0.55      0.54      0.54      4950
+weighted avg       0.55      0.54      0.54      4950
+
+The Accuracy of neural_network Classifier is: 0.6705050505050505
+              precision    recall  f1-score   support
+
+           1       0.90      0.82      0.86       966
+           2       0.82      0.83      0.82       987
+           3       0.61      0.48      0.54      1000
+           4       0.46      0.64      0.54      1025
+           5       0.66      0.60      0.63       972
+
+    accuracy                           0.67      4950
+   macro avg       0.69      0.67      0.68      4950
+weighted avg       0.69      0.67      0.67      4950
+
+The Accuracy of bagging Classifier is: 0.5482828282828283
+              precision    recall  f1-score   support
+
+           1       0.69      0.71      0.70       966
+           2       0.70      0.66      0.68       987
+           3       0.45      0.47      0.46      1000
+           4       0.42      0.39      0.40      1025
+           5       0.50      0.52      0.51       972
+
+    accuracy                           0.55      4950
+   macro avg       0.55      0.55      0.55      4950
+weighted avg       0.55      0.55      0.55      4950
+
+
